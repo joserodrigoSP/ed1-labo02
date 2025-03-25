@@ -94,7 +94,7 @@ class E03AVLTreeTest {
                     expected != null ? " [Debe retornar: " + expected + "]" : "");
         }
     }
-
+///
     private static final Map<String, BiFunction<E03AVLTree<Integer>, Integer, Integer>> OPERATORS = Map.of(
             "search", E03AVLTree::search,
             "height", (avlTree, arg) -> avlTree.height(),
